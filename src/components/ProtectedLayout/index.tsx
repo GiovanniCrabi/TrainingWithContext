@@ -10,6 +10,5 @@ export const ProtectLayout = ({ children }: props ) => {
   if (!auth.email) {
     return <h1>You need to login</h1>
   }
-
   return children
 }
